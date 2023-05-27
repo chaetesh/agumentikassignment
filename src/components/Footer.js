@@ -9,7 +9,7 @@ const Footer = () => {
     await axios
       .get("https://agumentik-zs4w.onrender.com/api/socialLink/")
       .then((response) => {
-        setSocialMediaLinks(response.data);
+        setSocialMediaLinks(response.data); 
       });
   };
 
